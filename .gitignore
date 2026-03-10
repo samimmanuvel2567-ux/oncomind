@@ -1,0 +1,37 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables (secrets, API keys)
+backend/.env
+.env.*
+
+# Logs
+*.log
+
+# Build / distribution files
+build/
+dist/
+*.egg-info/
+
+# VS Code settings
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Database files (if using SQLite)
+*.sqlite3
+*.db
+
+# Temporary files
+*.tmp
+*.temp
